@@ -1,5 +1,6 @@
 // var penumpang = ['OKE1', 'OKE2', 'OKE3', 'OKE4', 'OKE5', 'OKE6', 'OKE7', 'OKE8', 'OKE9', 'OKE10', 'OKE11', 'OKE12', 'OKE13', 'OKE14'];
 var penumpang = [];
+
 var tambahPenumpang = function (namaPenumpang) {
   var lsPenumpang = namaPenumpang.toUpperCase();
   if (penumpang.length === 0) {
@@ -21,6 +22,7 @@ var tambahPenumpang = function (namaPenumpang) {
     }
   }
 };
+
 var hapusPenumpang = function (namaPenumpang) {
   var lsPenumpang = namaPenumpang.toUpperCase();
   if (penumpang.length === 0) {
@@ -37,4 +39,4 @@ var hapusPenumpang = function (namaPenumpang) {
       }
     }
   }
-}
+};
